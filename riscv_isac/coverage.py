@@ -236,6 +236,7 @@ class csr_registers(MutableMapping):
             "stval": int('143',16),
             "sip": int('144',16),
             "satp": int('180',16),
+            "sqoscfg": int('181',16),
             "vxsat": int('009',16),
             "fflags":int('1',16),
             "frm":int('2',16),
